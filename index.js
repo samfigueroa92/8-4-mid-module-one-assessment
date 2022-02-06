@@ -29,7 +29,7 @@ const animals = [
 function getTotalCount(animals) {
   let animalCount = 0;
   for(let i = 0; i < animals.length; i++){
-    animalCount += animals[i].count
+    animalCount += animals[i].count;
   }
 
   return animalCount;
@@ -50,7 +50,7 @@ function getTotalCount(animals) {
 function getAllKinds(animals) {
   let animalKind = [];
   for(let animal of animals){
-    animalKind.push(animal.kind)
+    animalKind.push(animal.kind);
   }
 
   return animalKind;
